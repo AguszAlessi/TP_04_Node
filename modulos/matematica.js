@@ -19,4 +19,8 @@ const dividir = (a,b)=>
     
 }
 
+const pi = 3.14;
 
+module.exports = {
+    sumar, restar, multiplicar, dividir
+};
