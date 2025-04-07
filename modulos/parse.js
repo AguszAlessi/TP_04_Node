@@ -11,4 +11,4 @@ function parsear(urlString) {
     };
 }
 
-import default parsear
+module.exports = parsear;

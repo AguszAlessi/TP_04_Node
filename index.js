@@ -29,8 +29,16 @@ const copia = require('./modulos/Ejercicio4');
 
 copia('./chau.txt', './hola.txt')
 
-//EJERCICIO 5
+//EJERCICIO 5 Y 6
 
-const parsearUrl = require('./modulos/parse'); 
-let objeto = parsearUrl("https://campus.ort.edu.ar/secundaria/almagro/informatica/tp/2219601/tp4-modulos-con-node")
+const parsearUrl = require('./modulos/Ejercicio6'); 
+let objeto = parsearUrl("http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo")
 console.log(objeto)
+
+//EJERCICIO 7
+
+const Conseguirmoneda = require('./modulos/moneda')
+
+const moneda = Conseguirmoneda("Ar")
+
+console.log(moneda)
