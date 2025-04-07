@@ -1,8 +1,8 @@
-const countryCurrencyMap = require('country-currency-map');
+const countryCurrencyMap = require('country-to-currency');
 
 function Conseguirmoneda(pais) {
     const info = countryCurrencyMap[pais.toUpperCase()];
-    return info ? info.currency : "Moneda no encontrada";
+    return info ? info : "Moneda no encontrada";
 }
 
 module.exports = Conseguirmoneda;

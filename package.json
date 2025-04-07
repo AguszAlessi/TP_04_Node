@@ -10,6 +10,7 @@
   "author": "Agustin Alessi",
   "license": "ISC",
   "dependencies": {
-    "country-currency-map": "^2.1.8"
+    "country-currency-map": "^2.1.8",
+    "country-to-currency": "^2.0.2"
   }
 }
